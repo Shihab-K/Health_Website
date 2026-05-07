@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us — HealthBridge</title>
+    <meta name="description" content="Get in touch with HealthBridge. Book an appointment, ask a question, or visit us at our location. We're here to help.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏥</text></svg>">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">+</span> HealthBridge
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="contact.html" class="btn btn-nav">Book Appointment</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <span class="section-badge">Get in Touch</span>
+            <h1>Contact Us</h1>
+            <p>Have a question or ready to schedule your visit? We'd love to hear from you.</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="section">
+        <div class="container contact-grid">
+
+            <!-- Contact Info -->
+            <div>
+                <div class="contact-info-cards">
+                    <div class="contact-info-card">
+                        <div class="contact-info-icon">📍</div>
+                        <div>
+                            <h4>Visit Us</h4>
+                            <p>123 Wellness Avenue, Suite 200<br>Springfield, IL 62701</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="contact-info-icon">📞</div>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p>(555) 123-4567<br>Mon–Fri: 8:00 AM – 6:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="contact-info-icon">✉️</div>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p>hello@healthbridge.com<br>We respond within 24 hours</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="contact-info-icon">🕐</div>
+                        <div>
+                            <h4>Office Hours</h4>
+                            <p>Monday – Friday: 8:00 AM – 6:00 PM<br>Saturday: 9:00 AM – 1:00 PM<br>Sunday: Closed</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="contact-info-icon">🚨</div>
+                        <div>
+                            <h4>Emergencies</h4>
+                            <p>For life-threatening emergencies, please call <strong>911</strong> or go to your nearest emergency room.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h3>Send Us a Message</h3>
+                <form id="contactForm" action="#" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required placeholder="John">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Last Name *</label>
+                            <input type="text" id="lastName" name="lastName" required placeholder="Doe">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" name="phone" placeholder="(555) 000-0000">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="" disabled selected>Choose a topic...</option>
+                            <option value="appointment">Book an Appointment</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="insurance">Insurance Question</option>
+                            <option value="telehealth">Telehealth Consultation</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" required placeholder="How can we help you?"></textarea>
+                    </div>
+                    <div class="form-submit">
+                        <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+        <!-- Map Placeholder -->
+        <div class="container">
+            <div class="map-placeholder">
+                📍 Map — 123 Wellness Avenue, Suite 200, Springfield, IL 62701<br>
+                <em style="font-size: 0.85rem; margin-top: 0.5rem; display: block;">Replace this with a Google Maps embed or interactive map</em>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container cta-content">
+            <h2>Prefer to Talk to Someone?</h2>
+            <p>Our friendly staff is ready to assist you. Call us directly and we'll get you scheduled right away.</p>
+            <div class="cta-actions">
+                <a href="tel:+15551234567" class="btn btn-white btn-lg">Call (555) 123-4567</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">+</span> HealthBridge
+                    </a>
+                    <p>Compassionate, patient-centered healthcare for you and your family. Serving our community with excellence since 2011.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Primary Care</a></li>
+                        <li><a href="services.html">Telehealth</a></li>
+                        <li><a href="services.html">Preventive Health</a></li>
+                        <li><a href="services.html">Specialist Referrals</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>📍 123 Wellness Avenue, Suite 200</li>
+                        <li>📞 (555) 123-4567</li>
+                        <li>✉️ hello@healthbridge.com</li>
+                        <li>🕐 Mon–Fri: 8AM – 6PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 HealthBridge. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">HIPAA Notice</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
