@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us — HealthBridge</title>
-    <meta name="description" content="Get in touch with HealthBridge. Book an appointment, ask a question, or visit us at our location. We're here to help.">
+    <title>Contact — HealthBridge</title>
+    <meta name="description" content="Get in touch with HealthBridge. Book an appointment, ask a question, or visit our practice. We are here to help.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%235B3A8C'/><path d='M16 9v14M9 16h14' stroke='white' stroke-width='3' stroke-linecap='round' fill='none'/></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏥</text></svg>">
 </head>
 <body>
 
@@ -14,7 +17,10 @@
     <nav class="navbar" id="navbar">
         <div class="container nav-container">
             <a href="index.html" class="logo">
-                <span class="logo-icon">+</span> HealthBridge
+                <span class="logo-mark" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+                </span>
+                HealthBridge
             </a>
             <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
                 <span></span><span></span><span></span>
@@ -32,9 +38,9 @@
     <!-- Page Hero -->
     <section class="page-hero">
         <div class="container">
-            <span class="section-badge">Get in Touch</span>
-            <h1>Contact Us</h1>
-            <p>Have a question or ready to schedule your visit? We'd love to hear from you.</p>
+            <span class="section-badge">Get in touch</span>
+            <h1>We&rsquo;d love to hear from you</h1>
+            <p>Have a question or ready to schedule your visit? Send us a note and we will be in touch shortly.</p>
         </div>
     </section>
 
@@ -46,35 +52,55 @@
             <div>
                 <div class="contact-info-cards">
                     <div class="contact-info-card">
-                        <div class="contact-info-icon">📍</div>
+                        <div class="contact-info-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 22s7-7.5 7-13a7 7 0 0 0-14 0c0 5.5 7 13 7 13z"/><circle cx="12" cy="9" r="2.5"/>
+                            </svg>
+                        </div>
                         <div>
                             <h4>Visit Us</h4>
                             <p>123 Wellness Avenue, Suite 200<br>Springfield, IL 62701</p>
                         </div>
                     </div>
                     <div class="contact-info-card">
-                        <div class="contact-info-icon">📞</div>
+                        <div class="contact-info-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.33 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
                         <div>
                             <h4>Call Us</h4>
-                            <p>(555) 123-4567<br>Mon–Fri: 8:00 AM – 6:00 PM</p>
+                            <p>(555) 123-4567<br>Mon–Fri · 8:00 AM – 6:00 PM</p>
                         </div>
                     </div>
                     <div class="contact-info-card">
-                        <div class="contact-info-icon">✉️</div>
+                        <div class="contact-info-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/>
+                            </svg>
+                        </div>
                         <div>
                             <h4>Email Us</h4>
                             <p>hello@healthbridge.com<br>We respond within 24 hours</p>
                         </div>
                     </div>
                     <div class="contact-info-card">
-                        <div class="contact-info-icon">🕐</div>
+                        <div class="contact-info-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>
+                            </svg>
+                        </div>
                         <div>
                             <h4>Office Hours</h4>
-                            <p>Monday – Friday: 8:00 AM – 6:00 PM<br>Saturday: 9:00 AM – 1:00 PM<br>Sunday: Closed</p>
+                            <p>Monday – Friday · 8:00 AM – 6:00 PM<br>Saturday · 9:00 AM – 1:00 PM<br>Sunday · Closed</p>
                         </div>
                     </div>
                     <div class="contact-info-card">
-                        <div class="contact-info-icon">🚨</div>
+                        <div class="contact-info-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2 2 21h20L12 2z"/><path d="M12 10v4"/><circle cx="12" cy="17" r="1" fill="currentColor"/>
+                            </svg>
+                        </div>
                         <div>
                             <h4>Emergencies</h4>
                             <p>For life-threatening emergencies, please call <strong>911</strong> or go to your nearest emergency room.</p>
@@ -85,7 +111,7 @@
 
             <!-- Contact Form -->
             <div class="contact-form">
-                <h3>Send Us a Message</h3>
+                <h3>Send us a message</h3>
                 <form id="contactForm" action="#" method="POST">
                     <div class="form-row">
                         <div class="form-group">
@@ -110,7 +136,7 @@
                     <div class="form-group">
                         <label for="subject">Subject *</label>
                         <select id="subject" name="subject" required>
-                            <option value="" disabled selected>Choose a topic...</option>
+                            <option value="" disabled selected>Choose a topic…</option>
                             <option value="appointment">Book an Appointment</option>
                             <option value="general">General Inquiry</option>
                             <option value="insurance">Insurance Question</option>
@@ -134,8 +160,8 @@
         <!-- Map Placeholder -->
         <div class="container">
             <div class="map-placeholder">
-                📍 Map — 123 Wellness Avenue, Suite 200, Springfield, IL 62701<br>
-                <em style="font-size: 0.85rem; margin-top: 0.5rem; display: block;">Replace this with a Google Maps embed or interactive map</em>
+                123 Wellness Avenue, Suite 200 · Springfield, IL 62701<br>
+                <em style="font-size: 0.82rem; margin-top: 0.5rem; display: block; opacity: 0.7;">Replace with a Google Maps embed</em>
             </div>
         </div>
     </section>
@@ -143,8 +169,8 @@
     <!-- CTA Section -->
     <section class="cta-section">
         <div class="container cta-content">
-            <h2>Prefer to Talk to Someone?</h2>
-            <p>Our friendly staff is ready to assist you. Call us directly and we'll get you scheduled right away.</p>
+            <h2>Prefer to talk to someone?</h2>
+            <p>Our team is happy to walk you through your options and get you scheduled right away.</p>
             <div class="cta-actions">
                 <a href="tel:+15551234567" class="btn btn-white btn-lg">Call (555) 123-4567</a>
             </div>
@@ -157,12 +183,15 @@
             <div class="footer-grid">
                 <div class="footer-brand">
                     <a href="index.html" class="logo">
-                        <span class="logo-icon">+</span> HealthBridge
+                        <span class="logo-mark" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+                        </span>
+                        HealthBridge
                     </a>
-                    <p>Compassionate, patient-centered healthcare for you and your family. Serving our community with excellence since 2011.</p>
+                    <p>A modern healthcare practice built around listening, transparency, and lasting relationships with our patients.</p>
                 </div>
                 <div class="footer-links">
-                    <h4>Quick Links</h4>
+                    <h4>Explore</h4>
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About Us</a></li>
@@ -182,18 +211,30 @@
                 <div class="footer-contact">
                     <h4>Contact</h4>
                     <ul>
-                        <li>📍 123 Wellness Avenue, Suite 200</li>
-                        <li>📞 (555) 123-4567</li>
-                        <li>✉️ hello@healthbridge.com</li>
-                        <li>🕐 Mon–Fri: 8AM – 6PM</li>
+                        <li>
+                            <span class="label">Visit</span>
+                            123 Wellness Avenue, Suite 200
+                        </li>
+                        <li>
+                            <span class="label">Call</span>
+                            <a href="tel:+15551234567">(555) 123-4567</a>
+                        </li>
+                        <li>
+                            <span class="label">Email</span>
+                            <a href="mailto:hello@healthbridge.com">hello@healthbridge.com</a>
+                        </li>
+                        <li>
+                            <span class="label">Hours</span>
+                            Mon–Fri · 8AM – 6PM
+                        </li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2026 HealthBridge. All rights reserved.</p>
                 <div class="footer-legal">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
                     <a href="#">HIPAA Notice</a>
                 </div>
             </div>

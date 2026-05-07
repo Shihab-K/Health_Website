@@ -58,9 +58,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Simulate sending (replace with actual form handler)
             setTimeout(() => {
-                submitBtn.textContent = '✓ Message Sent!';
-                submitBtn.style.background = '#16a34a';
-                submitBtn.style.borderColor = '#16a34a';
+                submitBtn.textContent = 'Message Sent';
+                submitBtn.style.background = '#3E2563';
+                submitBtn.style.borderColor = '#3E2563';
                 contactForm.reset();
 
                 setTimeout(() => {
@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // ---- Scroll-Reveal Animation ----
     const revealElements = document.querySelectorAll(
-        '.service-card, .feature-item, .testimonial-card, .value-card, .service-detail-card, .team-card, .stat-item, .contact-info-card'
+        '.service-card, .feature-item, .promise-card, .value-card, .service-detail-card, .contact-info-card'
     );
 
     if (revealElements.length > 0 && 'IntersectionObserver' in window) {

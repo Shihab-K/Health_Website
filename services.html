@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services — HealthBridge</title>
-    <meta name="description" content="Explore HealthBridge's full range of healthcare services including primary care, telehealth, preventive health, cardiology, pediatrics, and more.">
+    <meta name="description" content="Explore HealthBridge's full range of healthcare services — primary care, telehealth, preventive health, cardiology, pediatrics, mental health, and more.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%235B3A8C'/><path d='M16 9v14M9 16h14' stroke='white' stroke-width='3' stroke-linecap='round' fill='none'/></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏥</text></svg>">
 </head>
 <body>
 
@@ -14,7 +17,10 @@
     <nav class="navbar" id="navbar">
         <div class="container nav-container">
             <a href="index.html" class="logo">
-                <span class="logo-icon">+</span> HealthBridge
+                <span class="logo-mark" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+                </span>
+                HealthBridge
             </a>
             <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
                 <span></span><span></span><span></span>
@@ -32,9 +38,9 @@
     <!-- Page Hero -->
     <section class="page-hero">
         <div class="container">
-            <span class="section-badge">Our Services</span>
-            <h1>Comprehensive Healthcare Services</h1>
-            <p>From routine check-ups to specialized care, we offer a complete range of medical services under one roof.</p>
+            <span class="section-badge">Our services</span>
+            <h1>Care for every chapter</h1>
+            <p>From routine check-ups to specialized care, our services are designed to feel calm, considered, and complete.</p>
         </div>
     </section>
 
@@ -44,13 +50,17 @@
             <div class="services-detail-grid">
 
                 <div class="service-detail-card">
-                    <div class="service-detail-icon">🩺</div>
+                    <div class="service-detail-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4v5a4 4 0 0 0 8 0V4"/><path d="M12 13v3a4 4 0 0 0 8 0v-2"/><circle cx="20" cy="12" r="2"/>
+                        </svg>
+                    </div>
                     <div class="service-detail-content">
                         <h3>Primary Care</h3>
-                        <p>Your health journey starts here. Our primary care physicians provide comprehensive health assessments, chronic disease management, and personalized wellness plans. We take the time to understand your health history and create a long-term care strategy that works for you.</p>
+                        <p>Your health journey starts here. Our primary care visits cover comprehensive assessments, chronic condition management, and personalized wellness plans — built around you and your story.</p>
                         <div class="service-features">
                             <span class="service-feature-tag">Annual Physicals</span>
-                            <span class="service-feature-tag">Chronic Disease Management</span>
+                            <span class="service-feature-tag">Chronic Care</span>
                             <span class="service-feature-tag">Health Screenings</span>
                             <span class="service-feature-tag">Medication Management</span>
                         </div>
@@ -58,10 +68,14 @@
                 </div>
 
                 <div class="service-detail-card">
-                    <div class="service-detail-icon">💻</div>
+                    <div class="service-detail-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4"/>
+                        </svg>
+                    </div>
                     <div class="service-detail-content">
                         <h3>Telehealth</h3>
-                        <p>Access quality healthcare from the comfort of your home. Our telehealth platform connects you with our doctors via secure video consultations. Perfect for follow-ups, medication reviews, minor illness consultations, and ongoing care management.</p>
+                        <p>Quality care from wherever you are. Our secure video consultations are perfect for follow-ups, medication reviews, minor concerns, and ongoing care between in-person visits.</p>
                         <div class="service-features">
                             <span class="service-feature-tag">Video Consultations</span>
                             <span class="service-feature-tag">Follow-up Visits</span>
@@ -72,10 +86,14 @@
                 </div>
 
                 <div class="service-detail-card">
-                    <div class="service-detail-icon">🛡️</div>
+                    <div class="service-detail-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2 4 6v6c0 5 3.5 9.4 8 10 4.5-.6 8-5 8-10V6l-8-4z"/><path d="m9 12 2 2 4-4"/>
+                        </svg>
+                    </div>
                     <div class="service-detail-content">
                         <h3>Preventive Health</h3>
-                        <p>Stay ahead of health issues before they start. Our preventive health program includes personalized risk assessments, immunizations, cancer screenings, and lifestyle coaching. We empower you with the knowledge and tools to take control of your health.</p>
+                        <p>Stay ahead of health concerns before they begin. We offer personalized risk assessments, immunizations, screenings, and lifestyle guidance grounded in current evidence.</p>
                         <div class="service-features">
                             <span class="service-feature-tag">Vaccinations</span>
                             <span class="service-feature-tag">Cancer Screenings</span>
@@ -86,10 +104,14 @@
                 </div>
 
                 <div class="service-detail-card">
-                    <div class="service-detail-icon">❤️</div>
+                    <div class="service-detail-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                        </svg>
+                    </div>
                     <div class="service-detail-content">
                         <h3>Cardiology</h3>
-                        <p>Our cardiology team specializes in heart health — from routine evaluations to advanced diagnostics. We offer comprehensive cardiovascular assessments, stress testing, and ongoing heart disease management with a focus on prevention.</p>
+                        <p>Heart health, attended to with the time and attention it deserves. From routine evaluations to ongoing management, we focus on the long view of cardiovascular care.</p>
                         <div class="service-features">
                             <span class="service-feature-tag">Heart Health Screenings</span>
                             <span class="service-feature-tag">ECG / EKG</span>
@@ -100,10 +122,14 @@
                 </div>
 
                 <div class="service-detail-card">
-                    <div class="service-detail-icon">👶</div>
+                    <div class="service-detail-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-7 8-7s8 3 8 7"/>
+                        </svg>
+                    </div>
                     <div class="service-detail-content">
                         <h3>Pediatrics</h3>
-                        <p>From newborns to teenagers, our pediatric team provides nurturing and expert care for your children. We handle everything from well-child visits and developmental assessments to sick visits and immunizations in a kid-friendly environment.</p>
+                        <p>Gentle, expert care for the smallest patients. From well-child visits and developmental check-ins to immunizations and sick visits, we look after your children with warmth.</p>
                         <div class="service-features">
                             <span class="service-feature-tag">Well-Child Visits</span>
                             <span class="service-feature-tag">Immunizations</span>
@@ -114,13 +140,17 @@
                 </div>
 
                 <div class="service-detail-card">
-                    <div class="service-detail-icon">🧠</div>
+                    <div class="service-detail-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 3a4 4 0 0 0-4 4v3a4 4 0 0 0 0 8 4 4 0 0 0 4 4 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3z"/><path d="M15 3a4 4 0 0 1 4 4v3a4 4 0 0 1 0 8 4 4 0 0 1-4 4 3 3 0 0 1-3-3"/>
+                        </svg>
+                    </div>
                     <div class="service-detail-content">
-                        <h3>Mental Health & Wellness</h3>
-                        <p>Mental health is just as important as physical health. Our team offers supportive counseling, anxiety and depression management, stress reduction programs, and referrals to specialized therapists when needed.</p>
+                        <h3>Mental Health &amp; Wellness</h3>
+                        <p>Mental health is health. We offer supportive consultations for anxiety and low mood, stress reduction, and trusted referrals to specialized therapists when that next step is right for you.</p>
                         <div class="service-features">
                             <span class="service-feature-tag">Counseling</span>
-                            <span class="service-feature-tag">Anxiety & Depression</span>
+                            <span class="service-feature-tag">Anxiety &amp; Depression</span>
                             <span class="service-feature-tag">Stress Management</span>
                             <span class="service-feature-tag">Referral Network</span>
                         </div>
@@ -128,10 +158,14 @@
                 </div>
 
                 <div class="service-detail-card">
-                    <div class="service-detail-icon">🦴</div>
+                    <div class="service-detail-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M6 3v6a6 6 0 0 0 12 0V3"/><path d="M9 3h6"/><path d="M12 15v6"/><circle cx="12" cy="9" r="1.5"/>
+                        </svg>
+                    </div>
                     <div class="service-detail-content">
-                        <h3>Orthopedics & Sports Medicine</h3>
-                        <p>Whether you're dealing with a sports injury or chronic joint pain, our orthopedic specialists provide expert evaluation and treatment. We focus on getting you back to the activities you love with minimal downtime.</p>
+                        <h3>Orthopedics &amp; Sports Medicine</h3>
+                        <p>Whether it is a recent injury or chronic joint discomfort, we provide thoughtful evaluation and treatment plans designed to get you back to the activities you love.</p>
                         <div class="service-features">
                             <span class="service-feature-tag">Joint Pain</span>
                             <span class="service-feature-tag">Sports Injuries</span>
@@ -142,10 +176,14 @@
                 </div>
 
                 <div class="service-detail-card">
-                    <div class="service-detail-icon">🔬</div>
+                    <div class="service-detail-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 3v8l-5 9a2 2 0 0 0 1.7 3h12.6a2 2 0 0 0 1.7-3l-5-9V3"/><path d="M9 3h6"/>
+                        </svg>
+                    </div>
                     <div class="service-detail-content">
-                        <h3>Lab & Diagnostics</h3>
-                        <p>On-site laboratory and diagnostic services for fast, accurate results. From routine blood work to advanced imaging, we provide the diagnostic tools your doctor needs to deliver the best possible care.</p>
+                        <h3>Lab &amp; Diagnostics</h3>
+                        <p>On-site lab and diagnostic services for fast, accurate results. From routine blood work to imaging, we provide the tools your care plan needs — with no extra trips.</p>
                         <div class="service-features">
                             <span class="service-feature-tag">Blood Work</span>
                             <span class="service-feature-tag">Urinalysis</span>
@@ -163,28 +201,28 @@
     <section class="section section-alt">
         <div class="container">
             <div class="section-header">
-                <span class="section-badge">Insurance & Payment</span>
-                <h2>Making Healthcare Accessible</h2>
+                <span class="section-badge">Insurance &amp; payment</span>
+                <h2>Honest, accessible care</h2>
                 <p>We accept most major insurance plans and offer transparent self-pay options. No surprise bills, ever.</p>
             </div>
             <div class="features-grid">
                 <div class="feature-item">
-                    <div class="feature-number">✓</div>
+                    <div class="feature-number">01</div>
                     <h3>Major Insurance Accepted</h3>
-                    <p>We work with most PPO, HMO, and Medicare plans. Contact us to verify your specific coverage.</p>
+                    <p>We work with most PPO, HMO, and Medicare plans. Reach out to verify your specific coverage.</p>
                 </div>
                 <div class="feature-item">
-                    <div class="feature-number">✓</div>
+                    <div class="feature-number">02</div>
                     <h3>Transparent Self-Pay</h3>
-                    <p>Clear, upfront pricing for uninsured or self-pay patients. Ask about our affordable care packages.</p>
+                    <p>Clear, upfront pricing for uninsured or self-pay patients. Ask about our affordable care options.</p>
                 </div>
                 <div class="feature-item">
-                    <div class="feature-number">✓</div>
-                    <h3>Payment Plans</h3>
-                    <p>Flexible payment options so financial concerns never stand between you and quality care.</p>
+                    <div class="feature-number">03</div>
+                    <h3>Flexible Payment Plans</h3>
+                    <p>Reasonable payment options so finances never stand between you and quality care.</p>
                 </div>
                 <div class="feature-item">
-                    <div class="feature-number">✓</div>
+                    <div class="feature-number">04</div>
                     <h3>No Surprise Bills</h3>
                     <p>We follow the No Surprises Act and always discuss costs before treatment begins.</p>
                 </div>
@@ -195,8 +233,8 @@
     <!-- CTA Section -->
     <section class="cta-section">
         <div class="container cta-content">
-            <h2>Need Help Choosing a Service?</h2>
-            <p>Our team is happy to guide you to the right care. Reach out and we'll help you find exactly what you need.</p>
+            <h2>Not sure where to start?</h2>
+            <p>Our team is happy to guide you to the right care. Reach out and we will help you find exactly what you need.</p>
             <div class="cta-actions">
                 <a href="contact.html" class="btn btn-white btn-lg">Contact Us</a>
                 <a href="tel:+15551234567" class="btn btn-outline-white btn-lg">Call (555) 123-4567</a>
@@ -210,12 +248,15 @@
             <div class="footer-grid">
                 <div class="footer-brand">
                     <a href="index.html" class="logo">
-                        <span class="logo-icon">+</span> HealthBridge
+                        <span class="logo-mark" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg>
+                        </span>
+                        HealthBridge
                     </a>
-                    <p>Compassionate, patient-centered healthcare for you and your family. Serving our community with excellence since 2011.</p>
+                    <p>A modern healthcare practice built around listening, transparency, and lasting relationships with our patients.</p>
                 </div>
                 <div class="footer-links">
-                    <h4>Quick Links</h4>
+                    <h4>Explore</h4>
                     <ul>
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About Us</a></li>
@@ -235,18 +276,30 @@
                 <div class="footer-contact">
                     <h4>Contact</h4>
                     <ul>
-                        <li>📍 123 Wellness Avenue, Suite 200</li>
-                        <li>📞 (555) 123-4567</li>
-                        <li>✉️ hello@healthbridge.com</li>
-                        <li>🕐 Mon–Fri: 8AM – 6PM</li>
+                        <li>
+                            <span class="label">Visit</span>
+                            123 Wellness Avenue, Suite 200
+                        </li>
+                        <li>
+                            <span class="label">Call</span>
+                            <a href="tel:+15551234567">(555) 123-4567</a>
+                        </li>
+                        <li>
+                            <span class="label">Email</span>
+                            <a href="mailto:hello@healthbridge.com">hello@healthbridge.com</a>
+                        </li>
+                        <li>
+                            <span class="label">Hours</span>
+                            Mon–Fri · 8AM – 6PM
+                        </li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2026 HealthBridge. All rights reserved.</p>
                 <div class="footer-legal">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
                     <a href="#">HIPAA Notice</a>
                 </div>
             </div>
